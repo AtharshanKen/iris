@@ -6,8 +6,9 @@ MarkupSafe>=2.0
 Werkzeug==0.15.5
 numpy>= 1.11.0
 scipy>=0.15.1
-scikit-learn==1.6.1
+scikit-learn>=1.2.2
 matplotlib>=1.4.3
 pandas>=0.19
 Cython>= 0.28.5
+
 
