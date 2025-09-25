@@ -11,7 +11,6 @@ import pickle
 import pandas as pd
 from flask import Flask, request, jsonify, render_template
 from collections.abc import Mapping
-from pathlib import Path
 
 app=Flask(__name__)
 pickle_in = open("./classifier.pkl","rb")
@@ -40,4 +39,5 @@ def predict():
 # if __name__=='__main__':
 #     app.run(debug=True)
 if __name__=='__main__':
+
    app.run(host = '0.0.0.0', port=8080)
